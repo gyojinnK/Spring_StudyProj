@@ -1,0 +1,6 @@
+package com.inhatc.domain;
+
+public class MemberVO {
+	
+	private String name;
+}

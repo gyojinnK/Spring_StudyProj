@@ -1,0 +1,12 @@
+package com.inhatc.cs;
+
+import java.text.DateFormat;
+
+@Controller
+public class OToTController {
+	
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	
+	@RequestMapping(value = "/1to10", method = RequestMethod.GET)
+	public String 1to10(Locale locale, Model model)
+}

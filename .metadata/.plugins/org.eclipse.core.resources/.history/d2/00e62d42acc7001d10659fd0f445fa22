@@ -1,0 +1,17 @@
+package com.inhatc.cs;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.inhatc.domain.ProductVO;
+
+@Controller
+public class CSController3 {
+	
+	@RequestMapping("doD")
+	public String doD() {
+		
+		ProductVO prod = new ProductVO("inhatc Product", 5000);
+		return "productDetail";		// -> productDetail.jsp
+	}
+}
